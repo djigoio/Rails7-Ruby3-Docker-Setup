@@ -8,7 +8,10 @@ It contains the following:
 - Rails 7 ~> 7.0.0
 - PostgreSQL ~> 1.1
 
-Run "docker-compose run --no-deps web rails new . --force --database=postgresql" to generate the project. For following steps (database, build) check the link above.
+Run the following line to generate the project. For following steps (database, build) check the link above.
+```
+docker-compose run --no-deps web rails new . --force --database=postgresql
+```
 
 ## Docker files examples
 
